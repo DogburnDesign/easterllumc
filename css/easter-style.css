@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+html{
+    background: url(../images/easterbg.jpg) fixed;
+}
+body{
+    background: none;
+    padding: 20px;
+    color: #3A3965;
+}
+h1,h2,h3,h4{
+    font-family: 'Pacifico', cursive;
+}
+.llumc-easter-header{
+    background: rgba(255,255,255,.95);
+    padding:10px 0;
+    margin-bottom: 20px;
+}
+hr.header-hr{
+    border-top: 1px solid #fff;
+}
+.llumc-easter-event{
+    background: rgba(255,255,255,.95);
+    margin-bottom: 10px;
+    border-radius: 0 0 70px 0;
+}
+hr{
+    border-top: 1px solid #9C1C55;
+}
+.llumc-event-img{
+    padding:0;
+}
