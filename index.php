@@ -1,21 +1,8 @@
 <!DOCTYPE html>
 <html>
     <!-- START HEADER.PHP -->
-    <head>
-        <!-- TITLES & META -->
-        <title>LLUMC's 2015 Easter Portal</title>
-        
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">-->
-        <link rel="stylesheet" type="text/css" href="css/easter-style.css">
-    </head>
-    <body>
-        <header class="container llumc-easter-header">
-            <div class="col-md-8 col-md-offset-2">
-                <img src="images/weblogo-llumceaster.svg" class="img-responsive">
-            </div>
-        </header><hr class="container header-hr">
+    <?php include 'includes/header.php'?>
+        <!-- END HEADER.PHP -->
         
         <div class="container llumc-easter-event-list">
             <div class="row llumc-easter-event">
@@ -40,12 +27,7 @@
                 </div>
             </div>
         </div>
-    
-        <footer>
-
-        </footer>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+    <!-- FOOTER.PHP -->
+        <?php include 'includes/footer.php' ?>
     <!-- END FOOTER.PHP -->
 </html>

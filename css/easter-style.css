@@ -10,18 +10,34 @@ body{
 h1,h2,h3,h4{
     font-family: 'Pacifico', cursive;
 }
+/* HEADER STYLING */
 .llumc-easter-header{
-    background: rgba(255,255,255,.95);
+    /*background: rgba(255,255,255,.95);*/
     padding:10px 0;
     margin-bottom: 20px;
 }
 hr.header-hr{
     border-top: 1px solid #fff;
 }
+.llumc-easter-header-btn{
+    padding: 2em 0;
+}
+.llumc-easter-header-btn .btn{
+    font-family: 'Pacifico', cursive;
+    background: #ffffff;
+    transition: .2s all;
+    -webkit-transition:.2s all;
+}
+.llumc-easter-header-btn .btn:hover{
+    color:#ffffff;
+    background:#AE0054;
+}
+/* EVENT STYLING */
 .llumc-easter-event{
     background: rgba(255,255,255,.95);
     margin-bottom: 10px;
     border-radius: 0 0 70px 0;
+    box-shadow: 2px 2px 5px 0px #000;
 }
 hr{
     border-top: 1px solid #9C1C55;
