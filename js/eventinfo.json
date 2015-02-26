@@ -1,0 +1,59 @@
+{
+    "event-1":{
+        "name": "Rainbow Days Easter Carnival",
+        "date": "Saturday, March 28",
+        "time": "11:00am", 
+        "venue": "LLUMC",
+        "cost": "FREE", 
+        "contact":{
+            "name": "Kay Deblance",
+            "email": "kdeblance@llumc.org"
+        },
+        "url": "http://llumc.org/rainbowdays",
+        "pic":"images/rainbowdays.jpg",
+        "desc":""
+    },
+    "event-2":{
+        "name": "Children's Easter Eggstravaganza",
+        "date": "Sunday, March 29",
+        "time": "12:30pm", 
+        "venue": "Benton Garden & Playgrounds",
+        "cost": "FREE", 
+        "contact":{
+            "name": "Jill Emery",
+            "email": "jillemery@llumc.org"
+        },
+        "url": "#",
+        "pic":"images/eastereggstravaganza.jpg",
+        "desc":"Invite friends & neighbors for this FREE family event, featuring an egg hunt, bounce house, carnival games & hot dog cookout. The festivities begin at 12:30, rain or shine. <a href='mailto:kids@llumc.org'>kids@llumc.org</a>"
+    },
+    "event-3":{
+        "name": "Holy Week Organ Recital",
+        "date": "Monday, March 30",
+        "time": "12:00pm", 
+        "venue": "Shipp Chapel / Watson Hall",
+        "cost": "FREE", 
+        "contact":{
+            "name": "Jimmy Emery",
+            "email": "music@llumc.org"
+        },
+        "url": "",
+        "pic":"images/image-placeholder.jpg",
+        "desc":"Place holder text here..."
+    },
+    "event-4":{
+        "name": "Owen Lenten Lectures",
+        "date": "Tues-Thurs, Mar 31-Apr 2",
+        "time": "12:00pm", 
+        "venue": "Shipp Chapel / Watson Hall",
+        "cost": "FREE", 
+        "contact":{
+            "name": "Jimmy Emery",
+            "email": "music@llumc.org"
+        },
+        "url": "",
+        "pic":"images/image-placeholder.jpg",
+        "desc":"Place holder text here..."
+    }
+    
+}

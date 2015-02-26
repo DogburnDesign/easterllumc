@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(flaticon.css);
 html{
     background: url(../images/easterbg.jpg) fixed;
+    background-size: cover;
 }
 body{
     background: none;
-    padding: 20px;
+    padding:0;
     color: #3A3965;
 }
 h1,h2,h3,h4{
@@ -27,21 +29,87 @@ hr.header-hr{
     background: #ffffff;
     transition: .2s all;
     -webkit-transition:.2s all;
+    border-bottom: 3px solid #CA9EAF;
+}
+.llumc-easter-header-btn .btn:active{
+    border-bottom: 1px;
 }
 .llumc-easter-header-btn .btn:hover{
     color:#ffffff;
     background:#AE0054;
+    border-bottom-color:#6E3148;
 }
+.easter-list-header{
+    color:#ffffff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.9);
+    margin-bottom: 20px;
+}
+
 /* EVENT STYLING */
 .llumc-easter-event{
     background: rgba(255,255,255,.95);
     margin-bottom: 10px;
     border-radius: 0 0 70px 0;
     box-shadow: 2px 2px 5px 0px #000;
+    margin-left:-100%;
+    opacity:0;
+    -webkit-animation: event-info .5s ease-in-out;
+    -webkit-animation-fill-mode:forwards;
 }
 hr{
     border-top: 1px solid #9C1C55;
 }
 .llumc-event-img{
     padding:0;
+}
+
+@-webkit-keyframes event-info {
+    from { 
+      margin-left:-100%;
+      margin-right:100%;
+      opacity:0;
+      }
+    to {
+      margin-left:0;
+      margin-right:0;
+      opacity:1;
+    }
+}
+.llumc-easter-event:nth-child(1){
+  -webkit-animation-delay:.1s;
+}
+.llumc-easter-eventnth-child(2){
+  -webkit-animation-delay:.2s;
+}
+.llumc-easter-event:nth-child(3){
+  -webkit-animation-delay:.3s;
+}
+.llumc-easter-event:nth-child(4){
+  -webkit-animation-delay:.4s;
+}
+
+/* -- FOOTER STYLE -- */
+.easter-footer{
+    background:rgba(0,0,0, .9);
+    color:#fff;
+    padding-bottom: 30px;
+}
+.easter-footer ul{
+    list-style: none;
+}
+.easter-footer a, .easter-footer a:visited{
+    color:#fff;
+    transition:all .2s;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+}
+.easter-footer a:hover{
+    color: rgb(156, 28, 85);
+    text-decoration: none;
+}
+.easter-contact-info .col-md-4{
+    text-align: right;
+}
+.easter-contact-info h4{
+    margin-top:0;
 }
