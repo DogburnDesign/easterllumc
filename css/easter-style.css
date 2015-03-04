@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Roboto+Slab:400,100,300,700);
 @import url(flaticon.css);
 html{
     background: url(../images/easterbg.jpg) fixed;
@@ -61,6 +61,18 @@ hr{
 }
 .llumc-event-img{
     padding:0;
+}
+
+a.llumc-event-btn.btn {
+    background: #AE0054;
+    color: #fff;
+    font-family: 'Pacifico',cursive;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+}
+a.llumc-event-btn.btn:hover{
+    background: #E786B5;
 }
 
 @-webkit-keyframes event-info {

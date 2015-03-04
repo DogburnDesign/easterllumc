@@ -9,9 +9,10 @@
             "name": "Kay Deblance",
             "email": "kdeblance@llumc.org"
         },
+        "btntxt":"Sign Up",
         "url": "http://llumc.org/rainbowdays",
         "pic":"images/rainbowdays.jpg",
-        "desc":""
+        "desc":"Rainbow Days is a non-profit that works with underprivelaged children.  The carnival will provide a pleasant and happy atmosphere where the children can enjoy fun, games, comapnionship, and overall love from our LLUMC community."
     },
     "event-2":{
         "name": "Children's Easter Eggstravaganza",
@@ -23,7 +24,8 @@
             "name": "Jill Emery",
             "email": "jillemery@llumc.org"
         },
-        "url": "#",
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/03/29/childrens-easter-eggstravaganza/",
         "pic":"images/eastereggstravaganza.jpg",
         "desc":"Invite friends & neighbors for this FREE family event, featuring an egg hunt, bounce house, carnival games & hot dog cookout. The festivities begin at 12:30, rain or shine. <a href='mailto:kids@llumc.org'>kids@llumc.org</a>"
     },
@@ -37,9 +39,10 @@
             "name": "Jimmy Emery",
             "email": "music@llumc.org"
         },
-        "url": "",
-        "pic":"images/image-placeholder.jpg",
-        "desc":"Place holder text here..."
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/03/30/holy-week-organ-recital-by-sheryl-sebo-luncheon/",
+        "pic":"images/sherylsebo.jpg",
+        "desc":"Featureing Sheryl Sebo - 12:00PM (Shipp Chapel) & Complimentary Lunch to Follow (Watson Hall)."
     },
     "event-4":{
         "name": "Owen Lenten Lectures",
@@ -51,9 +54,10 @@
             "name": "Jimmy Emery",
             "email": "music@llumc.org"
         },
-        "url": "",
-        "pic":"images/image-placeholder.jpg",
-        "desc":"Place holder text here..."
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/03/31/owen-lenten-lectures-3/",
+        "pic":"images/bible-stockphoto.jpg",
+        "desc":"Anual Holy Week lecture series presented by The Foundation of LLUMC <br>Featureing Dr. William D. Lawrence, Dean, Perkins School of Theology <br>Lecture - 12:00PM (Shipp Chapel); Complimentary lunch to follow in Watson Hall."
     }
     
 }

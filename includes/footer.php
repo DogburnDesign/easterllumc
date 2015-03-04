@@ -12,16 +12,16 @@
         <div class="col-md-4 easter-contact-info">
             <h3>Find Us...</h3><hr>
                 <div class="row">
-                    <div class="col-md-4"><h4>Address:</h4></div>
-                    <div class="col-md-8"><p>9200 Inwood Rd.<br>Dallas, TX 75220</p></div>
+                    <div class="col-md-4 col-sm-2 col-xs-2"><h4>Address:</h4></div>
+                    <div class="col-md-8 col-sm-8 col-xs-8"><p>9200 Inwood Rd.<br>Dallas, TX 75220</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4"><h4>Phone:</h4></div>
-                    <div class="col-md-8"><p>(214) 691-4721</p></div>
+                    <div class="col-md-4 col-sm-2 col-xs-2"><h4>Phone:</h4></div>
+                    <div class="col-md-8 col-sm-8 col-xs-8"><p>(214) 691-4721</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4"><h4>Email:</h4></div>
-                    <div class="col-md-8"><p>info@llumc.org</p></div>
+                    <div class="col-md-4 col-sm-2 col-xs-2"><h4>Email:</h4></div>
+                    <div class="col-md-8 col-sm-8 col-xs-8"><p>info@llumc.org</p></div>
                 </div>
         </div>
         <div class="col-md-4"></div>
