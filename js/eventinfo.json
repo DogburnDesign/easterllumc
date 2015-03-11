@@ -14,6 +14,21 @@
         "pic":"images/rainbowdays.jpg",
         "desc":"Rainbow Days is a non-profit that works with underprivelaged children.  The carnival will provide a pleasant and happy atmosphere where the children can enjoy fun, games, comapnionship, and overall love from our LLUMC community."
     },
+    "event-0":{
+        "name": "Palm Sunday Worship",
+        "date": "Saturday, March 29",
+        "time": " ", 
+        "venue": " ",
+        "cost": "Offering", 
+        "contact":{
+            "name": " ",
+            "email": "info@llumc.org"
+        },
+        "btntxt":"Worship Times",
+        "url": "http://llumc.org/service/times/",
+        "pic":"images/palmsunday.jpg",
+        "desc":"<strong>Traditional Worship:</strong> - 8:15am (Shipp Chapel), 10:50am (Sanctuary)<br><strong>Crosswalk Contemporary Worship</strong> - 10:50am (Asbury Hall)<br><strong>Thrive Family Worship</strong> - (9:30am Asbury Hall)"
+    },
     "event-2":{
         "name": "Children's Easter Eggstravaganza",
         "date": "Sunday, March 29",
@@ -58,6 +73,96 @@
         "url": "http://llumc.org/events/details/2015/03/31/owen-lenten-lectures-3/",
         "pic":"images/bible-stockphoto.jpg",
         "desc":"Anual Holy Week lecture series presented by The Foundation of LLUMC <br>Featureing Dr. William D. Lawrence, Dean, Perkins School of Theology <br>Lecture - 12:00PM (Shipp Chapel); Complimentary lunch to follow in Watson Hall."
+    },
+    "event-5":{
+        "name": "Renew Contemplative Worship",
+        "date": "Wednesday, April 1",
+        "time": "5:45pm", 
+        "venue": "Shipp Chapel",
+        "cost": "FREE", 
+        "contact":{
+            "name": "Scott Gilliland",
+            "email": "sgilliland@llumc.org"
+        },
+        "btntxt":"Renew Info",
+        "url": "http://llumc.org/service/times/",
+        "pic":"images/renew.jpg",
+        "desc":"Renew Contemplative worship & Holy Communion led by Scott Gilliland in Shipp Chapel on Wednesdays."
+    },
+    "event-6":{
+        "name": "Maundy Thursday Worship",
+        "date": "Thursday, April 2",
+        "time": "6:30pm", 
+        "venue": "Asbury Hall",
+        "cost": "Offering", 
+        "contact":{
+            "name": "Shanté Buckley",
+            "email": "sbuckley@llumc.org"
+        },
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/04/02/holy-thursday-worship/",
+        "pic":"images/maundy.jpg",
+        "desc":"Maundy Thursday Worship led by our Crosswalk Worship Team - 630:pm in Asbury Hall."
+    },
+    "event-7":{
+        "name": "Good Friday Worship",
+        "date": "Friday, April 3",
+        "time": "12:00pm", 
+        "venue": "Asbury Hall",
+        "cost": "Offering", 
+        "contact":{
+            "name": "Walt Lunde",
+            "email": "wlunde@llumc.org"
+        },
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/04/03/good-friday-worship-2/",
+        "pic":"images/goodfriday.jpg",
+        "desc":"Maundy Thursday Worship led by our Crosswalk Worship Team - 630:pm in Asbury Hall."
+    },
+    "event-8":{
+        "name": "Handel's Messiah Concert",
+        "date": "Friday, Apr 3",
+        "time": "7:00pm", 
+        "venue": "Shipp Chapel",
+        "cost": " ", 
+        "contact":{
+            "name": "Jimmy Emery",
+            "email": "music@llumc.org"
+        },
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/04/03/good-friday-messiah-concert/",
+        "pic":"images/messiah.jpg",
+        "desc":"Sanctuary Choir, Professional Orchestra and soloists. Reception will follow in Watson Hall featuring artwork by Sacred Threads of Glasgow, Scotland."
+    },
+    "event-9":{
+        "name": "Holy Week Revival Meetings",
+        "date": "Apr 3-4",
+        "time": "7:30pm", 
+        "venue": "Shipp Chapel",
+        "cost": " ", 
+        "contact":{
+            "name": "Jacob Keega",
+            "email": "jkeega@llumc.org"
+        },
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/events/details/2015/04/03/revival-meeting/",
+        "pic":"images/revivalmeeting.jpg",
+        "desc":"Multicultural praise, worship, & inspiration with guest speakers: Pastor Isaac Nganga, Pastor William Bittock, Pastor Emmie Mandari, and host Rev Jacob Keega."
+    },
+    "event-10":{
+        "name": "Easter Worship",
+        "date": "Sunday, Apr 5",
+        "time": " ", 
+        "venue": " ",
+        "cost": " ", 
+        "contact":{
+            "name": " ",
+            "email": "info@llumc.org"
+        },
+        "btntxt":"Event Information",
+        "url": "http://llumc.org/service/times/",
+        "pic":"images/image-placeholder.jpg",
+        "desc":"<strong>Sunrise Service</strong> - 7:00am (Shepherd's Garden)<br><strong>Traditional Services</strong> - 8:00am, 9:30am & 11:00am (Sanctuary)<br><strong>Crosswalk Contemporary Worship</strong> - 9:30am & 11:00am (Asbury Hall)"
     }
     
 }
