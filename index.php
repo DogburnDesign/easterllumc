@@ -1,3 +1,9 @@
+<?php
+    $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    if (strpos($url, 'www.llumc.org/easter/') == true){
+        header('Location: http://llumc.org/easter/');
+    }
+?>
 <!DOCTYPE html>
 <html>
     <!-- START HEADER.PHP -->

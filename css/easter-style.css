@@ -53,8 +53,12 @@ hr.header-hr{
     box-shadow: 2px 2px 5px 0px #000;
     margin-left:-100%;
     opacity:0;
+    animation: event-info .5s ease-in-out;
     -webkit-animation: event-info .5s ease-in-out;
+    -moz-animation: event-info .5s ease-in-out;
+    animation-fill-mode:forwards;
     -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
 }
 hr{
     border-top: 1px solid #9C1C55;
@@ -75,7 +79,19 @@ a.llumc-event-btn.btn:hover{
     background: #E786B5;
 }
 
-@-webkit-keyframes event-info {
+@-webkit-keyframes event-info{
+    from { 
+      margin-left:-100%;
+      margin-right:100%;
+      opacity:0;
+      }
+    to {
+      margin-left:0;
+      margin-right:0;
+      opacity:1;
+    }
+}
+@keyframes event-info{
     from { 
       margin-left:-100%;
       margin-right:100%;
@@ -88,16 +104,24 @@ a.llumc-event-btn.btn:hover{
     }
 }
 .llumc-easter-event:nth-child(1){
-  -webkit-animation-delay:.1s;
+  animation-delay:.1s;
+    -webkit-animation-delay:.1s;
+    -moz-animation-delay:.1s;
 }
 .llumc-easter-eventnth-child(2){
-  -webkit-animation-delay:.2s;
+  animation-delay:.2s;
+    -webkit-animation-delay:.2s;
+    -moz-animation-delay:.2s;
 }
 .llumc-easter-event:nth-child(3){
-  -webkit-animation-delay:.3s;
+  animation-delay:.3s;
+    -webkit-animation-delay:.3s;
+    -moz-animation-delay:.3s;
 }
 .llumc-easter-event:nth-child(4){
-  -webkit-animation-delay:.4s;
+  animation-delay:.4s;
+    -webkit-animation-delay:.4s;
+    -moz-animation-delay:.4s;
 }
 
 /* -- FOOTER STYLE -- */
